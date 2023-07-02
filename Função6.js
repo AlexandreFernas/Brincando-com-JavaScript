@@ -1,0 +1,25 @@
+function calcularImc(peso, Altura) {
+    return peso / Math.pow(Altura,2);
+}
+    
+
+const pesos= 110;
+const alturas= 1.70;
+const IMC = calcularImc(alturas * alturas);   
+console.log(IMC);
+
+    if 
+    (IMC < 18.5) {
+        console.log("Abaixo do peso");
+    } else if 
+        (IMC >= 18.5 && IMC < 25) {
+        console.log("Peso normal");
+    } else if 
+        (IMC >= 25 && IMC <30) {
+        console.log("Acima do peso")
+    } else if 
+        (IMC >=30 && IMC <40) {
+        console.log("Obeso")
+    } else {
+        console.log("Ricardinho");
+        }
